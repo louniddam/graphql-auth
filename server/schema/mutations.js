@@ -5,6 +5,7 @@ const {
 } = graphql
 const UserType = require('./types/user_type.js')
 const AuthService = require('../services/auth')
+const { GraphQLID } = require('graphql')
 
 const mutation = new GraphQLObjectType({
     name: 'Mutation',
